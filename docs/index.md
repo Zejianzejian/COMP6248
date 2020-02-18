@@ -30,11 +30,11 @@ There will be two lectures each week. The lecture slots are on predominantly on 
 | 3    | 10-Feb | Avenue L/T A  | Automatic Differentiation                                                | [autograd-handouts.pdf](handouts/autograd-handouts.pdf)                        | [Automatic differentiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ) | 
 |      | 12-Feb | SUSU Cinema   | Optimisation                                                             | [optimisation-handouts.pdf](handouts/optimisation-handouts.pdf)                                                                            |  [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)                                       | 
 | 4    | 17-Feb | Avenue L/T A  | Deeper Networks: Universal approximation, overfitting and regularisation | [deepnetworks-handouts.pdf](handouts/deepnetworks-handouts.pdf)                |        [Dropout:A Simple Way to Prevent Neural Networks from Overfitting](handouts/srivastava14a.pdf)                           | 
-|      | 19-Feb | SUSU Cinema   | Convolutional Networks                                                   | [Convolution-handouts.pdf](handouts/Convolution-handouts.pdf)                  | [handwritten digit recognition with a back-propagation network](https://papers.nips.cc/paper/293-handwritten-digit-recognition-with-a-back-propagation-network.pdf)                                        | 
+|      | 28-Feb | SUSU Cinema   | A Biological Perspective                                                 | [biological-inspiration-handouts.pdf](handouts/biological-inspiration-handouts.pdf)              |                                         | 
 | 5    | 24-Feb | Avenue L/T A  | Guest Lecture - Ethan Harris - Visualising Neural Networks               | | | 
-|      | 28-Feb | 67/1037       | A Biological Perspective                                                 | [biological-inspiration-handouts.pdf](handouts/biological-inspiration-handouts.pdf)              |                                         | 
+|      | 19-Feb | 67/1037       | Convolutional Networks                                                   | [Convolution-handouts.pdf](handouts/Convolution-handouts.pdf)                  | [handwritten digit recognition with a back-propagation network](https://papers.nips.cc/paper/293-handwritten-digit-recognition-with-a-back-propagation-network.pdf)                                        | 
 | 6    | 02-Mar | Avenue L/T A  | Networks Architectures for image classification                          | [Architectures-handouts.pdf](handouts/Architectures-handouts.pdf)                                                                              | [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/, aper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf), [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf), [Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842), [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) | 
-|      | 06-Mar | 67/1037   | Networks Architectures for image classification (II)                     | as above                                                                               |                                         | 
+|      | 06-Mar | 67/1037   	| Networks Architectures for image classification (II)                     | as above                                                                               |                                         | 
 | 7    | 09-Mar | Avenue L/T A  | Recurrent Neural Networks                                                | [rnn-handout.pdf](handouts/rnns-handouts.pdf)    |[The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) 
 |      | 13-Mar | 67/1037       | LSTMs and GRUs                                                           | [lstm-handout.pdf](handouts/lstm-handouts.pdf)   | [Recurrent Neural Network Regularization](https://arxiv.org/pdf/1409.2329.pdf) | 
 | 8    | 16-Mar | Avenue L/T A  | Embeddings                                                               | [Embeddings-handout.pdf](handouts/Embeddings-handouts.pdf)  | [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf)                                         | 
@@ -53,24 +53,24 @@ There will be two lectures each week. The lecture slots are on predominantly on 
 
 For 8 of the weeks we are organising a 2-hour lab session in which you will need to complete a series of worksheets. The worksheets have been designed to put the theory covered in the lectures into context, and the equip you with practical skills in implementing and training differentiable programs. A team of PhD-student demonstrators will be available in the lab to help you with any questions you might have about the topics you are working on.
 
-40% of the marks for the module are for lab work. Each of the 8 lab sessions will be accompanied by an additional assessed exercise for you to work through in your own time. You will have to work through the exercises __by yourself__ and write-up your findings. You will submit your answers/findings/working to all the assessed exercises to handin in week 11 for marking (6th May, 16:00). Each of the 8 exercises will be worth 5% of your overall module mark. We recommend that you do the exercise accompanying the lab as soon as possible after the lab session, rather than leaving them all to the end.
+40% of the marks for the module are for lab work. Each of the 8 lab sessions will be accompanied by an additional assessed exercise for you to work through in your own time. You will have to work through the exercises __by yourself__ and write-up your findings. You will submit your answers/findings/working to all the assessed exercises to [handin](https://handin.ecs.soton.ac.uk/handin/1920/COMP6248/3/) in week 11 for marking (6th May, 16:00). Each of the 8 exercises will be worth 5% of your overall module mark. We recommend that you do the exercise accompanying the lab as soon as possible after the lab session, rather than leaving them all to the end.
 
 Labs will start in the second week (5th Feb) 9-11 on Wednesday mornings in Zepler Level 2. The full lab schedule is below:
 
-| Week | Date   | Location  | Topic                                                                                                 |
-|------|--------|-----------|-------------------------------------------------------------------------------------------------------|
-| 1    | 29-Jan |           | NO LAB                                                                                                | 
-| 2    | 05-Feb | Zepler L2 | [Introducing PyTorch](./labs/lab1/)                                                                   |
-| 3    | 12-Feb | Zepler L2 | [Automatic Differentiation](./labs/lab2/)                                                             |
-| 4    | 19-Feb | Zepler L2 | [Optimisation](./labs/lab3/)                                                                          |
-| 5    | 26-Feb | Zepler L2 | [Implementing simple Neural Networks using PyTorch and Torchbearer](./labs/lab4/)                     |
-| 6    | 04-Mar |           | _No Lab_                                                                                              |
-| 7    | 11-Mar | Zepler L2 | [Implementing and training Convolutional Neural Networks using PyTorch and Torchbearer](./labs/lab5/) |
-| 8    | 18-Mar | Zepler L2 | [Using pretrained models and transfer learning](./labs/lab6)                                          | 
-| 9    | 22-Apr | Zepler L2 | [Recurrent Networks, Sequence Prediction and Embeddings](./labs/lab7)                                 | 
-| 10   | 29-Apr | Zepler L2 | [Autoencoders and Deep Generative Models](./labs/lab8)                                                |
-| 11   | 06-May | Zepler L2 | Coursework Help and Advice                                                                            |
-| 12   | 13-May | Zepler L2 | Coursework Help and Advice                                                                            | 
+| Week | Date   | Location  | Topic                                                                                                 | Exercise Link                        |
+|------|--------|-----------|-------------------------------------------------------------------------------------------------------|--------------------------------------|
+| 1    | 29-Jan |           | NO LAB                                                                                                |                                      |
+| 2    | 05-Feb | Zepler L2 | [Introducing PyTorch](./labs/lab1/)                                                                   | [Lab 1 Exercise](./labex/lab1ex.pdf) |
+| 3    | 12-Feb | Zepler L2 | [Automatic Differentiation](./labs/lab2/)                                                             | [Lab 2 Exercise](./labex/lab2ex.pdf) |
+| 4    | 19-Feb | Zepler L2 | [Optimisation](./labs/lab3/)                                                                          | [Lab 3 Exercise](./labex/lab3ex.pdf) |
+| 5    | 26-Feb | Zepler L2 | [Implementing simple Neural Networks using PyTorch and Torchbearer](./labs/lab4/)                     |                                      |
+| 6    | 04-Mar |           | _No Lab_                                                                                              |                                      |
+| 7    | 11-Mar | Zepler L2 | [Implementing and training Convolutional Neural Networks using PyTorch and Torchbearer](./labs/lab5/) |                                      |
+| 8    | 18-Mar | Zepler L2 | [Using pretrained models and transfer learning](./labs/lab6)                                          |                                      |
+| 9    | 22-Apr | Zepler L2 | [Recurrent Networks, Sequence Prediction and Embeddings](./labs/lab7)                                 |                                      |
+| 10   | 29-Apr | Zepler L2 | [Autoencoders and Deep Generative Models](./labs/lab8)                                                |                                      |
+| 11   | 06-May | Zepler L2 | Coursework Help and Advice                                                                            |                                      |
+| 12   | 13-May | Zepler L2 | Coursework Help and Advice                                                                            |                                      |
 
 __Note: I've made all the worksheet links available from last year. Please don't be surprised if we make some updates before each session!__
 
